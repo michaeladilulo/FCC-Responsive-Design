@@ -44,8 +44,10 @@
       <section>
         <h2>Husky Form</h2>
         <form action='https://freecatphotoapp.com/submit-cat-photo'>
-         <label><input type="radio" id="outdoor" name="indoor-outdoor" value='outdoor'/> Outdoor</label>
-         <label><input type="radio" id="indoor"name='indoor-outdoor' value="'indoor"/> Indoor</label>  
+          <fieldset> <!--Groups like radio buttons together and is a block level element-->
+            <label><input type="radio" id="outdoor" name="indoor-outdoor" value='outdoor'/> Outdoor</label>
+            <label><input type="radio" id="indoor"name='indoor-outdoor' value="'indoor"/> Indoor</label>  
+          </fieldset>
           <input type="text" name="catphotourl" placeholder="Dog Photo URL" required/>
           <button type="submit">Submit</button>
         </form>
