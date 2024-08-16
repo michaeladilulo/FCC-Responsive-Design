@@ -45,13 +45,13 @@
         <h2>Husky Form</h2>
         <form action='https://freecatphotoapp.com/submit-cat-photo'>
           <fieldset> 
-            <legend>Is your Husky an indoor or outdoor Husky?</legend> <!--Legend acts like a caption for the fieldset element-->
+            <legend>Is your Husky an indoor or outdoor Husky?</legend>
             <label><input type="radio" id="outdoor" name="indoor-outdoor" value='outdoor'/> Outdoor</label>
             <label><input type="radio" id="indoor"name='indoor-outdoor' value="'indoor"/> Indoor</label>  
           </fieldset>
           <fieldset>
             <legend>What's your Husky's personality?</legend>
-            <input type="checkbox" id="loving"/> Loving
+            <input type="checkbox" id="loving"/> <label for="loving">Loving</label>
           </fieldset>
           <input type="text" name="catphotourl" placeholder="Dog Photo URL" required/>
           <button type="submit">Submit</button>
